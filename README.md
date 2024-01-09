@@ -47,16 +47,21 @@ The notebooks vary constant parameters such as `REFERENCE_CONCEPT`, `OBJECTIVE`,
 
 ## Usage
 
-[Instructions on how to use these notebooks, any prerequisites, and steps to follow.]
+If you want to use the trained models, you can load them by:
+```
+TOKENIZER_NAME = "TOKENIZER_NAME = f"neuralmind/bert-{VARIANT}-portuguese-cased"
+MODEL_NAME = "kamel-usp/aes_enem_models-sourceA-{OBJECTIVE}-from-{FINETUNED-MODEL}-{VARIANT}-C{REFERENCE_CONCEPT}"
 
-## Contributing
+tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_NAME, use_fast=True)
+model = AutoModelForSequenceClassification.from_pretrained(
+        MODEL_NAME, 
+        cache_dir="/tmp/", 
+        num_labels=6,
+    )
+```
 
-[Guidelines for contributing to the project, if applicable.]
-
-## License
-
-[Information about the project's license, if applicable.]
+If you use regression, `num_labels` must be `1`. All model variants are available on [Hugging Face](https://huggingface.co/kamel-usp) 
 
 ## Contact
 
-[Your contact information or instructions on how to reach out for more information.]
+Please feel free to contact authors through the email shown in the paper.
