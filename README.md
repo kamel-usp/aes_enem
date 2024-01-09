@@ -1,4 +1,4 @@
-# Project Title
+# A New Benchmark for Automatic Essay Scoring in Portuguese
 
 This repository contains all the code used in the experiments provided in `A New Benchmark for Automatic Essay Scoring in Portuguese`, which was presented at [PROPOR 2024](https://propor2024.citius.gal/).
 
