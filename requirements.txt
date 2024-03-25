@@ -9,3 +9,5 @@ coral_pytorch==1.4.0
 matplotlib==3.8.2
 black==24.2.0
 isort==5.13.2
+notebook==7.1.2
+ipywidgets==8.1.2
