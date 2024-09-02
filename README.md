@@ -70,23 +70,23 @@ Please feel free to contact authors through the email shown in the paper.
 
 If you use this dataset or any of the associated resources in your research, please cite the following:
 
-@inproceedings{silveira-etal-2024-new,
-    title = "A New Benchmark for Automatic Essay Scoring in {P}ortuguese",
-    author = "Silveira, Igor Cataneo  and
-      Barbosa, Andr{\'e}  and
-      Mau{\'a}, Denis Deratani",
-    editor = "Gamallo, Pablo  and
-      Claro, Daniela  and
-      Teixeira, Ant{\'o}nio  and
-      Real, Livy  and
-      Garcia, Marcos  and
-      Oliveira, Hugo Gon{\c{c}}alo  and
-      Amaro, Raquel",
-    booktitle = "Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 1",
-    month = mar,
-    year = "2024",
-    address = "Santiago de Compostela, Galicia/Spain",
-    publisher = "Association for Computational Lingustics",
-    url = "https://aclanthology.org/2024.propor-1.23",
-    pages = "228--237",
+@inproceedings{silveira-etal-2024-new,  
+    title = "A New Benchmark for Automatic Essay Scoring in {P}ortuguese",  
+    author = "Silveira, Igor Cataneo  and  
+      Barbosa, Andr{\'e}  and  
+      Mau{\'a}, Denis Deratani",  
+    editor = "Gamallo, Pablo  and  
+      Claro, Daniela  and  
+      Teixeira, Ant{\'o}nio  and  
+      Real, Livy  and  
+      Garcia, Marcos  and  
+      Oliveira, Hugo Gon{\c{c}}alo  and  
+      Amaro, Raquel",  
+    booktitle = "Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 1",  
+    month = mar,  
+    year = "2024",  
+    address = "Santiago de Compostela, Galicia/Spain",  
+    publisher = "Association for Computational Lingustics",  
+    url = "https://aclanthology.org/2024.propor-1.23",  
+    pages = "228--237",  
 }
